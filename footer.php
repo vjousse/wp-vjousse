@@ -8,7 +8,7 @@
         </div>
 
         <div id="copyright" class="twelve columns">
-            <p>Ce site est entièrement libre de droits. Le code du template Wordpress est disponible sur Github.</p>
+            <p>Ce site et son contenu sont entièrement libre de droits. Le code du <a href="https://github.com/vjousse/wp-vjousse">template Wordpress est disponible sur Github</a>.</p>
         </div>
 
     </div>
