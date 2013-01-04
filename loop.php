@@ -9,10 +9,10 @@
     </div>
   <?php endwhile; ?>
     <div class="six columns">
-        <?php previous_posts_link("« Entrées plus récentes"); ?>
+        <?php next_posts_link("« Entrées plus anciennes"); ?>
     </div>
     <div class="six columns next">
-        <?php next_posts_link("Entrées plus anciennes »"); ?>
+        <?php previous_posts_link("Entrées plus récentes »"); ?>
     </div>
 </div>
 <?php else : ?>
