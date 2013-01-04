@@ -14,9 +14,6 @@
   <!-- Included CSS Files (Uncompressed) -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
-  <!-- Included CSS Files (Compressed) -->
-  <!--<link rel="stylesheet" href="stylesheets/foundation.min.css">-->
-  <link rel="stylesheet" href="stylesheets/app.css">
   <?php wp_head(); ?>
 </head>
 <body>
