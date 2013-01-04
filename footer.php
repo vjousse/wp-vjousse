@@ -2,11 +2,8 @@
 
         <div id="footer" class="twelve columns">
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Archives</a></li>
-                <li><a href="#">Catégories</a></li>
-                <li><a href="#">Recherche</a></li>
-                <li><a href="#">À propos</a></li>
+                <li><a href="<?php echo home_url(); ?>">Accueil</a></li>
+                <?php wp_list_pages('title_li='); ?>
             </ul>
         </div>
 

@@ -24,7 +24,7 @@
     <div class="row">
         <div class="header">
             <div class="twelve columns">
-                <div class="title"><a href="#"><?php bloginfo('name'); ?></a></div>
+                <div class="title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></div>
                 <p class="subtitle"><?php bloginfo('description'); ?></p>
                 <hr />
             </div>
