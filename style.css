@@ -132,6 +132,9 @@ body a { color: #4086AA;}
     padding-top: 5px;
     font-style: normal;
 }
+#posts .next{
+    text-align: right;
+}
 
 #posts h2 {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;

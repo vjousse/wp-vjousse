@@ -8,6 +8,12 @@
         <?php the_excerpt('Lire la suite →'); ?>
     </div>
   <?php endwhile; ?>
+    <div class="six columns">
+        <?php previous_posts_link("« Entrées plus récentes"); ?>
+    </div>
+    <div class="six columns next">
+        <?php next_posts_link("Entrées plus anciennes »"); ?>
+    </div>
 </div>
 <?php else : ?>
   <p class="nothing">
