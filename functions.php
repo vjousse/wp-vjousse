@@ -5,3 +5,9 @@ function new_excerpt_more( $more ) {
 add_filter('excerpt_more', 'new_excerpt_more');
 
 add_theme_support( 'automatic-feed-links' );
+
+add_theme_support('nav-menus');
+
+register_nav_menus( array(
+'footer' => 'Footer',
+));

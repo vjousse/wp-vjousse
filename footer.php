@@ -1,10 +1,7 @@
         </div>
 
         <div id="footer" class="twelve columns">
-            <ul>
-                <li><a href="<?php echo home_url(); ?>">Accueil</a></li>
-                <?php wp_list_pages('title_li='); ?>
-            </ul>
+            <?php wp_nav_menu( array('theme_location' => 'footer')); ?>
         </div>
 
         <div id="copyright" class="twelve columns">
