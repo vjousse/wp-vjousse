@@ -11,8 +11,10 @@
 
   <title><?php the_title(); ?></title>
 
-  <!-- Included CSS Files (Uncompressed) -->
+  <!-- Included CSS Files -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+  <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
   <?php wp_head(); ?>
 </head>
