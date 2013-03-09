@@ -5,7 +5,7 @@
         </div>
 
         <div id="copyright" class="twelve columns">
-            <p>Ce site et son contenu sont entièrement libre de droits. Le code du <a href="https://github.com/vjousse/wp-vjousse">template Wordpress est disponible sur Github</a>.</p>
+            <p>Ce site et son contenu sont entièrement libres de droits. Le code du <a href="https://github.com/vjousse/wp-vjousse">template Wordpress est disponible sur Github</a>.</p>
         </div>
 
     </div>
