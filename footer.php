@@ -1,6 +1,7 @@
         </div>
 
         <div id="footer" class="twelve columns">
+            <hr />
             <?php wp_nav_menu( array('theme_location' => 'footer')); ?>
         </div>
 

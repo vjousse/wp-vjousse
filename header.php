@@ -13,10 +13,10 @@
 
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-  <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-
-  <?php wp_head(); ?>
+<!--  <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">-->
+<link href="http://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Kameron" rel="stylesheet" type="text/css">  <?php wp_head(); ?>
 </head>
 <body>
 
@@ -25,7 +25,9 @@
             <div class="twelve columns">
                 <div class="title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></div>
                 <p class="subtitle"><?php bloginfo('description'); ?></p>
-                <hr />
+
+                <?php wp_nav_menu( array('theme_location' => 'header')); ?>
+
             </div>
         </div>
 
