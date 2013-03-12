@@ -14,13 +14,13 @@
    Shared Styles
 ----------------------------------------- */
 html body {
-    font-family: 'Kameron', Georgia, serif;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 1em;
-    color: #1E1E20;
+    color: #3F403D;
     text-align: left;
     margin: 0;
     text-shadow: #fff 0 0 1px;
-    background-color: #D9CB9E;
+    background-color: #FCF3FF;
 }
 
 body p, body li {
@@ -37,36 +37,42 @@ body ul {
     overflow: hidden;
 }
 
-.content, .header {
+.content, .header, #footer {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 
 .header .twelve {
     padding-bottom: 50px;
 }
 
+.header ul {
+    margin-top: 20px;
+}
+
 
 .header ul, #footer ul {
-    text-align: center;
-    padding: 0;
+    background-color: white;
+    padding: 10px 0 10px 20px;
     margin: 0;
+    border-top: 1px double #3E606F;
+    border-bottom: 1px solid #3E606F;
 }
 
 .header li, #footer li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
     font-size: 1.8em;
-    font-family: 'Sansita one', Georgia, serif;
+    font-family: 'Gentium Basic', serif;
 }
 
 .header li a, #footer li a {
-    border-bottom: 2px dotted #374140;
     text-decoration: none;
+    color: #193441;
 }
 
 .header li a:hover, #footer li a:hover {
-    border-bottom: 2px solid #374140;
     text-decoration: none;
 }
 
@@ -78,33 +84,38 @@ body ul {
 
 
 .title {
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1em;
-    text-align: center;
-    padding: 20px 0 20px 0;
+    text-align: left;
+    padding: 40px 0 40px 0;
 }
 
 .header a {
-    color: #d3181f;
+    color: #193441;
     text-decoration: none;
 }
 
 .header .title a:hover {
-    color: #d3181f;
+    color: #3E606F;
 }
 .header a:hover {
-    color: #374140;
-    text-decoration: underline;
+    color: #3E606F;
 }
 
 .header a:focus {
-    color: #374140;
+    color: #3E606F;
 }
 
+
 .subtitle {
-    font-family: 'Kameron', Georgia, serif;
+    font-family: 'Gentium Basic', serif;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.9em;
+    padding-top: 40px;
+    font-style: italic;
+}
+.subtitle span {
+    font-style: normal;
 }
 
 .postdetails {
@@ -131,39 +142,33 @@ body ul {
 }
 
 body h1, body h2, body h3, .title {
-    font-family: 'Sansita one', Georgia, serif;
+    font-family: 'Gentium Basic', serif;
 }
 
 body h1 {
-    font-size: 2.8em;
+    font-size: 3em;
     padding-bottom: 40px; margin-bottom: 0px;
-    color: #2A2C2B;
 }
 
 body h2 {
-    font-size: 2em;
+    font-size: 2.3em;
     padding-top: 20px;
     padding-bottom: 10px;
-    color: #374140;
 }
 
 body h3 {
-    color: #555555;font-size: 1em;
+    font-size: 1em;
 }
 
 body a {
-    color: #d3181f;
+    color: #3E606F;
     text-decoration: underline;
-}
-
-#footer {
-    text-align:center;
-    font-style: italic;
-    margin-top: 30px;
 }
 
 
 #footer ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
 }

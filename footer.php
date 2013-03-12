@@ -1,8 +1,9 @@
         </div>
 
-        <div id="footer" class="twelve columns">
-            <hr />
-            <?php wp_nav_menu( array('theme_location' => 'footer')); ?>
+        <div id="footer">
+            <div class="twelve columns">
+                <?php wp_nav_menu( array('theme_location' => 'footer')); ?>
+            </div>
         </div>
 
         <div id="copyright" class="twelve columns">

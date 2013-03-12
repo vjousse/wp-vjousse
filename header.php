@@ -13,20 +13,17 @@
 
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-<!--  <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">-->
-<link href="http://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Kameron" rel="stylesheet" type="text/css">  <?php wp_head(); ?>
-</head>
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"></head>
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700' rel='stylesheet' type='text/css'>
 <body>
 
     <div class="row">
         <div class="header">
             <div class="twelve columns">
                 <div class="title"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></div>
-                <p class="subtitle"><?php bloginfo('description'); ?></p>
-
                 <?php wp_nav_menu( array('theme_location' => 'header')); ?>
+                <p class="subtitle"><?php bloginfo('description'); ?><span> — Mark Twain</span></p>
+
 
             </div>
         </div>
