@@ -13,7 +13,7 @@
 
   <!-- Included CSS Files -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"></head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,400italic,700' rel='stylesheet' type='text/css'>
 <body>
 

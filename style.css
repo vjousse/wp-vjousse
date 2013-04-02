@@ -14,7 +14,7 @@
    Shared Styles
 ----------------------------------------- */
 html body {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #3F403D;
     text-align: left;
@@ -24,7 +24,7 @@ html body {
 }
 
 body p, body li {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 body ul {
     padding-left: 30px;
