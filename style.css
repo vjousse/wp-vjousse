@@ -64,7 +64,7 @@ body ul {
     display: inline;
     margin-right: 20px;
     font-size: 1.8em;
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header li a, #footer li a {
@@ -108,7 +108,7 @@ body ul {
 
 
 .subtitle {
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 1.9em;
     padding-top: 40px;
@@ -129,6 +129,7 @@ body ul {
 
 .postdetails p {
     padding-bottom: 25px;
+    padding-top: 15px;
 }
 
 #posts h2 a {
@@ -142,7 +143,7 @@ body ul {
 }
 
 body h1, body h2, body h3, .title {
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body h1 {
