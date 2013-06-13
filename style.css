@@ -26,6 +26,9 @@ html body {
 body p, body li {
     font-size: 1.3em;
 }
+body li p {
+    font-size: 1em;
+}
 body ul {
     padding-left: 30px;
 }
